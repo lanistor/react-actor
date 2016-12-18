@@ -8,7 +8,7 @@
 ## Usage
   1. Define a component and register an action to listen
   ```javascript
-  import { Actor } from 'react-actor'
+  import Actor from 'react-actor'
 
   class A extends Actor {
 
@@ -42,6 +42,8 @@
   ```
   2. Trigger the action with data
   ```javascript
+  import Actor from 'react-actor'
+  
   class B extends Actor {
 
     // trigger the action with data
@@ -60,12 +62,14 @@
   ```
 ## Docs
   * onAction
+
     ```javascript
       function onAction(actionName, callback)
       @param actionName   { string }     - the action name to listen
       @param callback     { Function }   - the response function to receive the data when this action is triggered
     ```
   * act
+
     ```javascript
     function act(actionName, data)
     @param actionName   { string }     - the action name to trigger
