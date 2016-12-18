@@ -43,7 +43,7 @@
   2. Trigger the action with data
   ```javascript
   import Actor from 'react-actor'
-  
+
   class B extends Actor {
 
     // trigger the action with data
@@ -60,6 +60,7 @@
     }
   }
   ```
+
 ## Docs
   * onAction
 
